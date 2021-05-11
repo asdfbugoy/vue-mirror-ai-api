@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "sh deploy.sh",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -24,8 +25,15 @@
     "cordova-serve-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx"
   },
   "dependencies": {
+    "@bit/great-eastern.leo-pattern-library-vue.leo-card": "^0.1.0",
+    "@bit/great-eastern.leo-pattern-library-vue.leo-common": "^0.1.1",
+    "@bit/great-eastern.leo-pattern-library-vue.leo-skeleton-tile-button": "^0.1.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "mine": "^0.1.0",
+    "vue": "^2.6.11",
+    "vue-fragment": "^1.5.2",
+    "vue-upload-component": "^2.8.22"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
